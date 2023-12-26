@@ -47,7 +47,7 @@ ENABLE_RESET_AES_KEY             := 0
 ENABLE_BIG_FREQ                  := 0
 #
 # DTMF_CALLING 2.8 kB
-ENABLE_DTMF_CALLING              := 0
+ENABLE_DTMF_CALLING              := 1
 ENABLE_DTMF_LIVE_DECODER         := 1
 ENABLE_DTMF_TIMING_SETTINGS      := 0
 ENABLE_DTMF_CALL_FLASH_LIGHT     := 0
@@ -102,7 +102,7 @@ ENABLE_KEYLOCK                   := 0
 ENABLE_PANADAPTER                := 1
 ENABLE_PANADAPTER_PEAK_FREQ      := 0
 # single VFO 1.5kB
-ENABLE_SINGLE_VFO_CHAN           := 1
+ENABLE_SINGLE_VFO_CHAN           := 0
 
 #############################################################
 
