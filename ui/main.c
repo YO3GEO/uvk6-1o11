@@ -111,8 +111,8 @@ void draw_bar(uint8_t *line, const int len, const int max_width)
 		if (g_center_line != CENTER_LINE_NONE && g_center_line != CENTER_LINE_AUDIO_BAR)
 			return false;
 
-		if (g_dtmf_call_state != DTMF_CALL_STATE_NONE)
-			return false;
+	//	if (g_dtmf_call_state != DTMF_CALL_STATE_NONE)
+	//		return false;
 
 		#if defined(ENABLE_ALARM) || (ENABLE_TX_TONE_HZ > 0)
 			if (g_alarm_state != ALARM_STATE_OFF)
