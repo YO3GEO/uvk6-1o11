@@ -35,7 +35,7 @@ ENABLE_VOX                       := 1
 ENABLE_VOX_MORE_SENSITIVE        := 1
 # Tx Alarm 600 B
 ENABLE_ALARM                     := 0
-ENABLE_TX_TONE_HZ                := 1750
+ENABLE_TX_TONE_HZ                := 0
 #
 # MDC1200 2.8 kB
 ENABLE_MDC1200                   := 0
