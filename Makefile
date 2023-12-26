@@ -35,12 +35,12 @@ ENABLE_VOX                       := 1
 ENABLE_VOX_MORE_SENSITIVE        := 1
 # Tx Alarm 600 B
 ENABLE_ALARM                     := 0
-ENABLE_TX_TONE_HZ                := 0
+ENABLE_TX_TONE_HZ                := 1750
 #
 # MDC1200 2.8 kB
 ENABLE_MDC1200                   := 0
-ENABLE_MDC1200_SHOW_OP_ARG       := 1
-ENABLE_MDC1200_SIDE_BEEP         := 1
+ENABLE_MDC1200_SHOW_OP_ARG       := 0
+ENABLE_MDC1200_SIDE_BEEP         := 0
 #
 ENABLE_PWRON_PASSWORD            := 0
 ENABLE_RESET_AES_KEY             := 0
@@ -56,9 +56,9 @@ ENABLE_DTMF_KILL_REVIVE          := 0
 #
 ENABLE_SHOW_FREQ_IN_CHAN         := 1
 # small bold 580 B
-ENABLE_SMALL_BOLD                := 1
+ENABLE_SMALL_BOLD                := 0
 # smallest font 2 kB
-#ENABLE_SMALLEST_FONT            := 0
+ENABLE_SMALLEST_FONT            := 1
 # trim trailing 44 B
 ENABLE_TRIM_TRAILING_ZEROS       := 0
 ENABLE_WIDE_RX                   := 1
