@@ -32,7 +32,7 @@ ENABLE_VOICE                     := 0
 ENABLE_MUTE_RADIO_FOR_VOICE      := 0
 # Tx on Voice 1.0 kB
 ENABLE_VOX                       := 1
-ENABLE_VOX_MORE_SENSITIVE        := 1
+ENABLE_VOX_MORE_SENSITIVE        := 0
 # Tx Alarm 600 B
 ENABLE_ALARM                     := 0
 ENABLE_TX_TONE_HZ                := 1750
